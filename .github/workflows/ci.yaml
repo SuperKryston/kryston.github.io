@@ -12,3 +12,6 @@ jobs:
         run: script/bootstrap
       - name: test
         run: script/cibuild
+
+- name: GitHub Pages
+  uses: crazy-max/ghaction-github-pages@v2.1.2
