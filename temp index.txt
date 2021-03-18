@@ -1,0 +1,95 @@
+<div class=Section1>
+
+<div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='margin-left:-5.05pt;border-collapse:collapse;border:none;mso-border-alt:
+ solid black .5pt;mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=251 valign=top style='width:188.6pt;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <h2><span style='mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
+   id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+   path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="Picture_x0020_0" o:spid="_x0000_i1029" type="#_x0000_t75"
+   alt="My Icon 21.png" style='width:30pt;height:30pt;visibility:visible;
+   mso-wrap-style:square'>
+   <v:imagedata src="index_files/image001.png" o:title="My Icon 21"/>
+  </v:shape><![endif]--><![if !vml]><img width=40 height=40
+  src="index_files/image007.gif" alt="My Icon 21.png" v:shapes="Picture_x0020_0"><![endif]></span><span
+  style='font-size:40.0pt;mso-fareast-font-family:"Times New Roman"'>Kryston</span><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
+  </td>
+
+
+  <td width=110 valign=top style='width:1.15in;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <a href="https://mcpedl.com/user/kryston/">
+  <h2 align=center style='text-align:center'><span style='mso-fareast-font-family:
+  "Times New Roman";mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_6"
+   o:spid="_x0000_i1028" type="#_x0000_t75" alt="mcpedl_icon.png" style='width:38.25pt;
+   height:38.25pt;visibility:visible;mso-wrap-style:square'>
+   <v:imagedata src="index_files/image008.png" o:title="mcpedl_icon"/>
+  </v:shape><![endif]--><![if !vml]><img width=51 height=51
+  src="index_files/image009.gif" alt="mcpedl_icon.png" v:shapes="Picture_x0020_6"><![endif]></span><span
+  style='mso-fareast-font-family:"Times New Roman";font-weight:normal;
+  mso-bidi-font-weight:bold'><span
+  style='text-decoration:none;text-underline:none'>MCPEDL</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
+  </a>
+  </td>
+
+
+  <td width=97 valign=top style='width:73.05pt;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <a  href="https://www.youtube.com/channel/UCj2Q1omyKPmY-dzCuJa6Ggg">
+  <h2 align=center style='text-align:center'><span style='mso-fareast-font-family:
+  "Times New Roman";mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_4"
+   o:spid="_x0000_i1027" type="#_x0000_t75" alt="youtube_icon.png" style='width:38.25pt;
+   height:38.25pt;visibility:visible;mso-wrap-style:square'>
+   <v:imagedata src="index_files/image003.png" o:title="youtube_icon"/>
+  </v:shape><![endif]--><![if !vml]><img border=0 width=51 height=51
+  src="index_files/image010.gif" alt="youtube_icon.png" v:shapes="Picture_x0020_4"><![endif]><span
+  style='font-weight:normal;mso-bidi-font-weight:bold;mso-no-proof:no;
+  text-decoration:none;text-underline:none'>Youtube</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
+  </a>
+  </td>
+
+
+  <td width=94 valign=top style='width:70.8pt;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <a  href="https://discord.gg/jB7qcVwhMr">
+  <h2 align=center style='text-align:center'><span style='mso-fareast-font-family:
+  "Times New Roman";mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_1"
+   o:spid="_x0000_i1026" type="#_x0000_t75" alt="discord_icon.png" style='width:32.25pt;
+   height:36pt;visibility:visible;mso-wrap-style:square'>
+   <v:imagedata src="index_files/image005.png" o:title="discord_icon"/>
+  </v:shape><![endif]--><![if !vml]><img border=0 width=43 height=48
+  src="index_files/image011.gif" alt="discord_icon.png" v:shapes="Picture_x0020_1"><![endif]></span><span
+  style='mso-fareast-font-family:"Times New Roman";font-weight:normal;
+  mso-bidi-font-weight:bold;mso-no-proof:yes'><span style='mso-no-proof:no;text-decoration:
+  none;text-underline:none'>Discord</span></span><span style='mso-fareast-font-family:
+  "Times New Roman"'><o:p></o:p></span></h2>
+  </a>
+  </td>
+
+
+ </tr>
+</table>
+
+</div>
