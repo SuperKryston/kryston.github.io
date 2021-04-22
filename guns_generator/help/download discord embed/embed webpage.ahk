@@ -1,0 +1,1 @@
+﻿UrlDownloadToFile, https://embeds.ga/e/5jmy7hk2, ggenhelp2.html
