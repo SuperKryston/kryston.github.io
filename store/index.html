@@ -1,0 +1,106 @@
+<html>
+
+
+<head>
+<script>
+function httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    //xmlHttp.onload = requestComplete;
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+function redirect(url)
+{
+    location.href = url;
+}
+</script>
+<style>
+body {
+  background-color: rgba(50, 50, 50, 1);
+  color: rgba(255, 255, 255, 1);
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+</style>
+<style>
+.grid-container {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  display: grid;
+  grid-gap: 15px 15px;
+  grid-template-columns: repeat(3, 150px);
+  //grid-template-rows: repeat(3, 170px);
+}
+
+.grid-item {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  text-align: center;
+}
+</style>
+
+</head
+
+
+
+
+<body>
+
+
+
+<div class="grid-container" id="all_apps">
+</div>
+
+
+    <script>
+        const body = document.getElementsByTagName("body")[0];
+        const app_apps = document.getElementById("all_apps")
+  
+        // Initialize resize observer object
+        let resizeObserver = new ResizeObserver(() => {
+           grid_resize(window.innerHeight, window.innerWidth)
+        });
+           
+        // Add a listener to body
+        resizeObserver.observe(body);
+
+        function grid_resize(Height, Width) {
+//console.log(Height, Width)
+        repeat = Width - 30;
+        repeat = repeat / 185;
+        repeat = Math.round(repeat);
+        //console.log(repeat)
+          //wide = Width - 100
+          app_apps.style.gridTemplateColumns = `repeat(${repeat}, 150px)`;
+          //app_apps.style.Width = wide + "px";
+        }
+
+
+
+
+
+
+
+
+
+
+       store_data = httpGet("/api/store.json")
+       store = JSON.parse(store_data)
+       console.log(`Store Version: ${store.store_version}`)
+       store.apps.forEach(app => {
+            app_apps.innerHTML = ` <div class="grid-item" onclick="redirect('${app.redirect}');"><img width=120 height=120 src="${app.icon_url}"><label>${app.name}</label></div> ${app_apps.innerHTML} `
+       });
+    </script>
+</body>
+
+</html>
