@@ -98,7 +98,7 @@ body {
        store = JSON.parse(store_data)
        console.log(`Store Version: ${store.store_version}`)
        store.apps.forEach(app => {
-            app_apps.innerHTML = ` <div class="grid-item" onclick="redirect('${app.redirect}');"><img width=120 height=120 src="${app.icon_url}"><label>${app.name}</label></div> ${app_apps.innerHTML} `
+            app_apps.innerHTML = `${app_apps.innerHTML}  <div class="grid-item" onclick="redirect('${app.redirect}');"><img width=120 height=120 src="${app.icon_url}"><label>${app.name}</label></div> `
        });
     </script>
 </body>
