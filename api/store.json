@@ -2,9 +2,24 @@
   "store_version": "1.0",
   "apps": [
     {
+      "name": "Realm Rank UI",
+      "redirect": "https://mcpedl.com/realm-rank-ui/",
+      "icon_url": "./thumbnails/null.png"
+    },
+    {
+      "name": "Music Player UI",
+      "redirect": "https://mcpedl.com/music-player-ui/",
+      "icon_url": "./thumbnails/null.png"
+    },
+    {
       "name": "Adventurous Hud",
       "redirect": "https://mcpedl.com/adventurous-hud/",
       "icon_url": "./thumbnails/adventurous_hud.png"
+    },
+    {
+      "name": "GTA SA Hud",
+      "redirect": "https://mcpedl.com/gta-sa-hud-pack/",
+      "icon_url": "./thumbnails/null.png"
     }
   ]
 }
