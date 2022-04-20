@@ -20,7 +20,7 @@ function redirect(url)
 </script>
 <style>
 body {
-  background-color: rgba(50, 50, 50, 1);
+  background-color: rgba(100, 100, 100, 1);
   color: rgba(255, 255, 255, 1);
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -43,10 +43,19 @@ body {
 }
 
 .grid-item {
-  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.8);
   font-size: 20px;
   text-align: center;
+}
+.grid-item:hover {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 255, 255, 1);
+}
+.grid-item:active {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 200, 0, 1);
 }
 </style>
 
