@@ -1,0 +1,14 @@
+.sidebar_button {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-size: 25px;
+  height: 50px;
+  padding-left: 15px;
+}
+
+.sidebar_button:hover {
+  background: #606060;;
+
+
+}
