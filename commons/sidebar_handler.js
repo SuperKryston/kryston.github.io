@@ -2,7 +2,8 @@ const sidebar_menu_element = document.getElementById("sidebar");
 
 const sidebar_elements = [
 `<div class="sidebar_button" onclick="window.location = 'https://superkryston.github.io/'"><label>Home</label></div>`,
-`<div class="sidebar_button" onclick="window.location = 'https://www.appsheet.com/start/d8eb3668-6bc6-4736-b86c-6d91fdd35f58'"><label>Appsheet Store</label></div>`
+`<div class="sidebar_button" onclick="window.location = 'https://www.appsheet.com/start/d8eb3668-6bc6-4736-b86c-6d91fdd35f58'"><label>Appsheet Store</label></div>`,
+`<div class="sidebar_button" onclick="window.location = 'https://superkryston.github.io/donate'"><label>Donate</label></div>`
 
 ]
 
