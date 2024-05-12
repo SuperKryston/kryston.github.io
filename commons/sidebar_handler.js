@@ -7,7 +7,7 @@ const sidebar_elements = [
 
 sidebar_elements.forEach((item, index) => {
     sidebar_menu_element.innerHTML = sidebar_menu_element.innerHTML + item;
-    console.log(item, index);
+    //console.log(item, index);
 });
  
 
