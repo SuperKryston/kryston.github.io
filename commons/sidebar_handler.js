@@ -9,7 +9,7 @@ sidebar_elements.forEach((item, index) => {
     sidebar_menu_element.innerHTML = sidebar_menu_element.innerHTML + item;
     console.log(item, index);
 });
-
+ 
 
 const sidebar_menu_button_open = document.getElementById("sidebar_menu_button_open");
 
