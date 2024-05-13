@@ -1,5 +1,13 @@
 const sidebar_menu_element = document.getElementById("sidebar");
 
+sidebar_menu_element.innerHTML = `
+      <div style="display: flex;align-items: center;align-content: center; padding-top: 20px; background: #797979; padding-bottom: 20px;">
+        <img style="padding-left: 20px;" width="50" height="50" src="assets/button/arrow_left_dark.svg" alt="Menu Bar.png" v:shapes="Picture_x0020_0" id="sidebar_menu_button_close">
+        <img style="padding-left: 20px;" width="50" height="50" src="assets/logo/K_Border2.svg" alt="K-Logo.png" v:shapes="Picture_x0020_0">
+        <label style="font-size: 35px;">ryston</label>
+      </div>
+`
+
 const sidebar_elements = [
 `<div class="sidebar_button" onclick="window.location = 'https://superkryston.github.io/'"><label>Home</label></div>`,
 `<div class="sidebar_button" onclick="window.location = 'https://www.appsheet.com/start/d8eb3668-6bc6-4736-b86c-6d91fdd35f58'"><label>Appsheet Store</label></div>`,
