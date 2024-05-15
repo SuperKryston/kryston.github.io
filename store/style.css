@@ -49,17 +49,21 @@
 }
 
 .grid-item_sub2t1 {
+font-weight: Bold;
 font-size: 20px;
 }
 
 .grid-item_sub2t2 {
-font-size: 14px;
+font-weight: Lighter;
+font-size: 13px;
 }
 .grid-item_sub2t3 {
-font-size: 14px;
+font-weight: Lighter;
+font-size: 13px;
 }
 
 .grid-item_paragraph {
+  height: 87px;
   text-align: start; 
   font-size: 15px;
   overflow: hidden;
