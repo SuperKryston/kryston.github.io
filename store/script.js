@@ -2,13 +2,13 @@ const content_containers_element = document.getElementById("content_containers")
 
 const app_content = [
 {
-  name: "",
-  type: "",
-  version: "",
-  back_image: "",
-  icon_image: "",
-  description:"",
-  redirect: ""
+  name: "GTA SA Hud",
+  type: "MCPEDL Content",
+  version: "v2.0",
+  back_image: "https://my.mcpedl.com/storage/addons/1251/images/gta-sa-hud-beta-006_2.png",
+  icon_image: "https://superkryston.github.io/assets/logo/K_Border2.svg",
+  description:"Customize your game to have a more closer look to GTA San Andreas",
+  redirect: "https://mcpedl.com/gta-sa-hud-pack/"
 }
 
 
