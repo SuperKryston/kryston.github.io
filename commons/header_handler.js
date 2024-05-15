@@ -1,8 +1,8 @@
 const header_left_element = document.getElementById("header_left");
 
 const header_left_elements = [
-`<img style="padding-left: 20px;" width="50" height="50" src="assets/button/menu.svg" alt="Menu Bar.png" v:shapes="Picture_x0020_0" id="sidebar_menu_button_open">`,
-`<img style="padding-left: 20px;" width="50" height="50" src="assets/logo/K_Border2.svg" alt="K-Logo.png" v:shapes="Picture_x0020_0">`,
+`<img style="padding-left: 20px;" width="50" height="50" src="https://superkryston.github.io/assets/button/menu.svg" alt="Menu Bar.png" v:shapes="Picture_x0020_0" id="sidebar_menu_button_open">`,
+`<img style="padding-left: 20px;" width="50" height="50" src="https://superkryston.github.io/assets/logo/K_Border2.svg" alt="K-Logo.png" v:shapes="Picture_x0020_0">`,
 `<label style="font-size: 35px; padding-bottom: 7px;">ryston</label>`
 
 ]

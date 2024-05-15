@@ -1,116 +1,60 @@
 <html>
-
-
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1" /> 
-<script>
-function httpGet(theUrl)
-{
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
-    xmlHttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    //xmlHttp.onload = requestComplete;
-    xmlHttp.send( null );
-    return xmlHttp.responseText;
-}
-function redirect(url)
-{
-    location.href = url;
-}
-</script>
-<style>
-body {
-  background-color: rgba(100, 100, 100, 1);
-  color: rgba(255, 255, 255, 1);
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
-}
-</style>
-<style>
-.grid-container {
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  display: grid;
-  grid-gap: 15px 15px;
-  grid-template-columns: repeat(3, 150px);
-  //grid-template-rows: repeat(3, 170px);
-}
-
-.grid-item {
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  font-size: 20px;
-  text-align: center;
-}
-.grid-item:hover {
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(0, 255, 255, 1);
-}
-.grid-item:active {
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(255, 200, 0, 1);
-}
-</style>
-
-</head
-
-
-
+  <head>
+      <link rel="icon" href="favicon.ico">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+      <meta name="google-site-verification" content="5KRy6yN4HwnnIynUbmnalajDh_YAOJf1dgcWPnUyZLU" />
+      <meta name="viewport" content="width=device-width, initial-scale=0.7">
+      <meta name="description" content="A website based on the experience of a developer. Find interesting contents, tools, etc.">
+      <meta name="keywords" content="Kryston, Super Kryston, Minecraft Server, Minecraft Addons, Minecraft Content, Minecraft Tools">
+      <title>Super Kryston</title>
+      <meta property="og:title" content="Super Kryston">
+      <meta property="og:image" content="">
+      <meta property="og:description" content="Find interesting content made from Kryston here. Who knows, you might find something you like">
+      <meta property="og:site_name" content="Super Kryston">
+      <link rel="stylesheet" href="https://superkryston.github.io/commons/page_layout.css">
+      <link rel="stylesheet" href="https://superkryston.github.io/commons/sidebar_handler.css">
+      <link rel="stylesheet" href="style.css">
+  </head>
 
 <body>
-
-
-
-<div class="grid-container" id="all_apps">
-</div>
-
-
-    <script>
-        const body = document.getElementsByTagName("body")[0];
-        const app_apps = document.getElementById("all_apps")
-  
-        // Initialize resize observer object
-        let resizeObserver = new ResizeObserver(() => {
-           grid_resize(window.innerHeight, window.innerWidth)
-        });
-           
-        // Add a listener to body
-        resizeObserver.observe(body);
-
-        function grid_resize(Height, Width) {
-//console.log(Height, Width)
-        repeat = Width - 30;
-        repeat = repeat / 185;
-        repeat = Math.round(repeat);
-        //console.log(repeat)
-          //wide = Width - 100
-          app_apps.style.gridTemplateColumns = `repeat(${repeat}, 150px)`;
-          //app_apps.style.Width = wide + "px";
-        }
+    <div id="header" class="page_layout_header"><div id="header_left" class="page_layout_header_left"></div><div id="header_right" class="page_layout_header_right"></div></div>
+    <div id="sidebar" class="page_layout_sidebar_left"></div>
 
 
 
 
 
 
+    <div id="body" class="page_layout_body">
+
+
+      <div id="content_containers" class="grid-container">
+
+<div class="grid-item"><img src="thumbnails/adventurous_hud.png" width=120 height=120><label>${app.name}</label></div>
+<div class="grid-item"><img src="thumbnails/adventurous_hud.png" width=120 height=120><label>${app.name}</label></div>
+<div class="grid-item"><img src="thumbnails/adventurous_hud.png" width=120 height=120><label>${app.name}</label></div>
+<div class="grid-item"><img src="thumbnails/adventurous_hud.png" width=120 height=120><label>${app.name}</label></div>
+<div class="grid-item"><img src="thumbnails/adventurous_hud.png" width=120 height=120><label>${app.name}</label></div>
+<div class="grid-item"><img src="thumbnails/adventurous_hud.png" width=120 height=120><label>${app.name}</label></div>
+<div class="grid-item"><img src="thumbnails/adventurous_hud.png" width=120 height=120><label>${app.name}</label></div>
+<div class="grid-item"><img src="thumbnails/adventurous_hud.png" width=120 height=120><label>${app.name}</label></div>
+
+
+
+      </div>
 
 
 
 
-       store_data = httpGet("/api/store.json")
-       store = JSON.parse(store_data)
-       console.log(`Store Version: ${store.store_version}`)
-       store.apps.forEach(app => {
-            app_apps.innerHTML = `${app_apps.innerHTML}  <div class="grid-item" onclick="redirect('${app.redirect}');"><img width=120 height=120 src="${app.icon_url}"><label>${app.name}</label></div> `
-       });
-    </script>
-</body>
+    </div>
 
+
+
+
+
+
+
+    <script type="text/javascript" src="https://superkryston.github.io/commons/header_handler.js"></script>
+    <script type="text/javascript" src="https://superkryston.github.io/commons/sidebar_handler.js"></script>
+  </body>
 </html>
