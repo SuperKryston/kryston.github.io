@@ -54,13 +54,14 @@
 
 
 .page_layout_body {
+  overflow: auto;
   color: white; 
   background: #292929;
   position: fixed;
   left: 0;
   top: 90px;
   right: 0;
-  height:100%;
+  bottom: 0;
 }
 
 
