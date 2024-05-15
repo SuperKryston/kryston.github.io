@@ -1,0 +1,48 @@
+const content_containers_element = document.getElementById("content_containers");
+
+const app_content = [
+{
+  name: "",
+  type: "",
+  version: "",
+  back_image: "",
+  icon_image: "",
+  description:"",
+  redirect: ""
+}
+
+
+]
+
+
+
+
+app_content.forEach((item, index) => {
+  var back_image = item.back_image
+  if (item.back_image == "" || item.back_image == null) {
+    back_image = "blank.svg"
+  }
+
+  var icon_image = item.icon_image
+  if (item.icon_image == "" || item.icon_image == null) {
+    icon_image = "blank.svg"
+  }
+
+    var content_div_element = `
+<div class="grid-item" onclick='window.location = "${item.redirect}";'>
+  <img src="${back_image}" width=350 height=175 class="grid-item_img">
+  <div class="grid-item_sub1">
+    <img src="${icon_image}" width=75 height=75 class="grid-item_img">
+    <div class="grid-item_sub2">
+      <label class="grid-item_sub2t1">${item.name}</label><br>
+      <label class="grid-item_sub2t2">${item.type}</label><br>
+      <label class="grid-item_sub2t3">${item.version}</label>
+    </div>
+  </div>
+  <label class="grid-item_paragraph">${item.description}</label>
+</div>
+`
+
+    content_containers_element.innerHTML = content_containers_element.innerHTML + content_div_element;
+    //console.log(item, index);
+});
