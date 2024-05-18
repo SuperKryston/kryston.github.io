@@ -97,3 +97,17 @@ font-size: 13px;
   font-weight: Bold;
   font-size: 30px;
 }
+
+.page_content_button_style {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 5px;
+  padding: 8px;
+  background-color: #404040;
+  transition: background-color 0.05s;
+}
+
+.page_content_button_style:hover {
+  background-color: #606060;
+
+}

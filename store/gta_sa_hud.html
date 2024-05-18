@@ -33,7 +33,20 @@
 
 <script>
 window.loadcontent = function loadcontent() {
-    alert();
+    document.getElementById("page_content_icon_image").src = `https://superkryston.github.io/assets/logo/K_Border2.svg`;
+    document.getElementById("page_content_title_text").innerHTML = `GTA SA HUD`;
+    document.getElementById("page_content_title_type").innerHTML = `MCPEDL Content`;
+    document.getElementById("page_content_title_version").innerHTML = `v2.0`;
+    document.getElementById("buttons").innerHTML = `
+<label class="page_content_button_style">Download</label><label class="page_content_button_style">Download</label>
+`;
+    document.getElementById("info").innerHTML = `
+<div>Download Size:</div>
+<div>Author: Kryston</div>
+`;
+    document.getElementById("description").innerHTML = `
+<div>This is a description of this content</div>
+`;
 }
 </script>
 
