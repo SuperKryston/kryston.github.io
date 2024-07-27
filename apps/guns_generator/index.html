@@ -52,7 +52,7 @@ try {
 
 zip.generateAsync({type:"base64"}).then(function (content) {
         if(isFileSaverSupported) {
-            saveAs("data:application/zip;base64," + content, "custom_filename.zip");
+            saveAs("data:application/zip;base64," + content, "custom_filename.mcpack");
         } else {
             window.location = URL.createObjectURL("data:application/zip;base64," + content);
         }
