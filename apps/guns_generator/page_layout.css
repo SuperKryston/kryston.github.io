@@ -1,0 +1,110 @@
+.page_layout_header {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  background: #690000; 
+  position: fixed; 
+  left: 0;
+  top: 0; 
+  right: 0; 
+  bottom: calc(100% - 90px); 
+  align-items: center;
+}
+
+.page_layout_header_left {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 100%; 
+  width:50%;
+}
+
+.page_layout_header_right {
+  gap: 10px; 
+  display: flex; 
+  flex-direction: row-reverse; 
+  justify-items: end; 
+  position: fixed; 
+  margin-right: 20px; 
+  width:50%; 
+  height:90px; 
+  align-items: center; 
+  align-content: center; 
+  right:0; top:0;
+}
+
+
+.page_layout_header_right_button_element_body {
+  background: #590000;
+  display: grid; 
+  width:70px; 
+  height:60px; 
+  padding: 3px; 
+  border: 0px solid black; 
+  border-radius: 10px; 
+  justify-items: center;
+  align-items: center;
+}
+
+.page_layout_header_right_button_element_body:hover {
+  background: #990000;
+}
+
+.page_layout_header_right_button_element_text {
+  color:black; 
+  text-decoration:none;
+}
+
+
+.page_layout_body {
+  overflow: auto;
+  color: white; 
+  background: #292929;
+  position: fixed;
+  left: 0;
+  top: 90px;
+  right: 0;
+  bottom: 0;
+}
+
+
+.page_layout_sidebar_left {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  z-index: 1;
+  color: white; 
+  position: fixed;
+  left: -300;
+  top: 0; 
+  width: 0px; 
+  bottom:0 ; 
+  transition: left 0.5s; 
+  background: #505050;
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
